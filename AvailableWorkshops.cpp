@@ -1,3 +1,12 @@
+/*Egeberk Özberk 
+HackerRank Compiler
+11.3.2017*/
+/*egeberk@gmail.com*/
+
+/* Here is my solution for Available Workshops problem in HackerRank
+see at https://www.hackerrank.com/challenges/attending-workshops/problem
+implemented solution uses a greedy algorithm. */
+
 #include<bits/stdc++.h>
 using namespace std;
 struct Workshop
