@@ -1,7 +1,9 @@
-/*Egeberk Özberk 
+/*Egeberk Ã–zberk 
 
-Visual Studio 2013
+Linux Terminal (gcc)
 
-9.6.2015*/
+5.3.2017*/
 
 /*egeberk@gmail.com*/
+
+Hope this will provide a better understanding to you about threads,locks and parallel computing.
