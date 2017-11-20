@@ -1,3 +1,7 @@
+/*Egeberk Özberk 
+Visual Studio 2013
+24.2.2016*/
+/*egeberk@gmail.com*/
 #include <iostream>
 #include <fstream>
 using namespace std;
