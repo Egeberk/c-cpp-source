@@ -1,3 +1,7 @@
+/*Egeberk Özberk 
+Visual Studio 2013
+2.5.2016*/
+/*egeberk@gmail.com*/
 #include <stdio.h>
 #include <stdlib.h>
 #define MAXSIZE 1000
