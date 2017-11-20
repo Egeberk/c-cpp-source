@@ -1,3 +1,7 @@
+/*Egeberk Özberk 
+Visual Studio 2013
+10.4.2016*/
+/*egeberk@gmail.com*/
 #include <iostream>
 #include <stdlib.h> // Free() { delete[] * } in C++
 using namespace std;
