@@ -1,3 +1,16 @@
+/*Egeberk Özberk 
+DEV C++ platform 
+14.8.2016*/
+/*egeberk@gmail.com*/
+
+/* ADDITIONAL INFO
+Implemented algorithms are :
+-Breadth-first search
+-Depth-first search
+-Random walk
+This program expects an input .txt file with 3 different mazes with sizes 10x10 12x12 15x15
+You can omit the input file and modify this program to make it accept a hard-coded maze.
+*/
 #include <iostream>
 #include <fstream>
 #include <queue>
