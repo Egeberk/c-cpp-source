@@ -1,3 +1,7 @@
+/*Egeberk Özberk 
+Visual Studio 2013
+12.4.2016*/
+/*egeberk@gmail.com*/
 #include <iostream>
 using namespace std;
 #define variable int
