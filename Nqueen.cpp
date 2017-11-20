@@ -1,3 +1,7 @@
+/*Egeberk Özberk 
+DEV C++ platform 
+14.8.2016*/
+/*egeberk@gmail.com*/
 #include <iostream>
 #include <vector>
 using namespace std;
