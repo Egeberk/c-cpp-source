@@ -1,3 +1,5 @@
+// BANKER'S ALGORITHM
+// Program requires an input .txt file of # of system/resources map.
 #include <stdio.h>
 #include <stdlib.h>
 
