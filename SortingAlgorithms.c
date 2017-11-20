@@ -1,3 +1,7 @@
+/*Egeberk Özberk 
+Visual Studio 2013
+22.2.2017*/
+/*egeberk@gmail.com*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
