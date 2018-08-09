@@ -5,7 +5,7 @@
 
 int main()
 {
-	SudokuSolver ss("C:\\Users\\Ege\\Desktop\\Sample Sudoku2.txt");
+	SudokuSolver ss("C:\\Users\\blabla\\Desktop\\blabla.txt"); // Path goes here.
 	ss.print();
 
 	getchar();
