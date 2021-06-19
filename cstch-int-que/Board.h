@@ -220,7 +220,19 @@ private:
                             break;
                         }
                     }
-                    tempKnightCoordiante = tempKnightCoordiante + Point(-1, 1);
+
+                    // Check if a friendly piece is blocking the patrol path
+                    for (int k = 0; k < whitesPieces.size(); k++)
+                    {
+                        if (whitesPieces[k].getCoord() == (tempKnightCoordiante + Point(-1, 1)))
+                        {
+                            knightFoundPiece = true;
+
+                            break;
+                        }
+                    }
+
+                    tempKnightCoordiante = tempKnightCoordiante + Point(-1, 1);   
                 }
 
                 tempKnightCoordiante = whitesPieces[i].getCoord();
@@ -242,6 +254,18 @@ private:
                             break;
                         }
                     }
+
+                    // Check if a friendly piece is blocking the patrol path
+                    for (int k = 0; k < whitesPieces.size(); k++)
+                    {
+                        if (whitesPieces[k].getCoord() == (tempKnightCoordiante + Point(1, 1)))
+                        {
+                            knightFoundPiece = true;
+
+                            break;
+                        }
+                    }
+
                     tempKnightCoordiante = tempKnightCoordiante + Point(1, 1);
                 }
 
@@ -264,6 +288,18 @@ private:
                             break;
                         }
                     }
+
+                    // Check if a friendly piece is blocking the patrol path
+                    for (int k = 0; k < whitesPieces.size(); k++)
+                    {
+                        if (whitesPieces[k].getCoord() == (tempKnightCoordiante + Point(-1, -1)))
+                        {
+                            knightFoundPiece = true;
+
+                            break;
+                        }
+                    }
+
                     tempKnightCoordiante = tempKnightCoordiante + Point(-1, -1);
                 }
 
@@ -282,6 +318,18 @@ private:
                             break;
                         }
                     }
+
+                    // Check if a friendly piece is blocking the patrol path
+                    for (int k = 0; k < whitesPieces.size(); k++)
+                    {
+                        if (whitesPieces[k].getCoord() == (tempKnightCoordiante + Point(1, -1)))
+                        {
+                            knightFoundPiece = true;
+
+                            break;
+                        }
+                    }
+
                     tempKnightCoordiante = tempKnightCoordiante + Point(1, -1);
                 }
             }
@@ -339,6 +387,18 @@ private:
                             break;
                         }
                     }
+
+                    // Check if a friendly piece is blocking the patrol path
+                    for (int k = 0; k < blackPieces.size(); k++)
+                    {
+                        if (blackPieces[k].getCoord() == (tempKnightCoordiante + Point(-1, 1)))
+                        {
+                            knightFoundPiece = true;
+
+                            break;
+                        }
+                    }
+
                     tempKnightCoordiante = tempKnightCoordiante + Point(-1, 1);
                 }
 
@@ -361,6 +421,18 @@ private:
                             break;
                         }
                     }
+
+                    // Check if a friendly piece is blocking the patrol path
+                    for (int k = 0; k < blackPieces.size(); k++)
+                    {
+                        if (blackPieces[k].getCoord() == (tempKnightCoordiante + Point(1, 1)))
+                        {
+                            knightFoundPiece = true;
+
+                            break;
+                        }
+                    }
+
                     tempKnightCoordiante = tempKnightCoordiante + Point(1, 1);
                 }
 
@@ -383,6 +455,18 @@ private:
                             break;
                         }
                     }
+
+                    // Check if a friendly piece is blocking the patrol path
+                    for (int k = 0; k < blackPieces.size(); k++)
+                    {
+                        if (blackPieces[k].getCoord() == (tempKnightCoordiante + Point(-1, -1)))
+                        {
+                            knightFoundPiece = true;
+
+                            break;
+                        }
+                    }
+
                     tempKnightCoordiante = tempKnightCoordiante + Point(-1, -1);
                 }
 
@@ -401,6 +485,18 @@ private:
                             break;
                         }
                     }
+
+                    // Check if a friendly piece is blocking the patrol path
+                    for (int k = 0; k < blackPieces.size(); k++)
+                    {
+                        if (blackPieces[k].getCoord() == (tempKnightCoordiante + Point(1, -1)))
+                        {
+                            knightFoundPiece = true;
+
+                            break;
+                        }
+                    }
+
                     tempKnightCoordiante = tempKnightCoordiante + Point(1, -1);
                 }
             }
